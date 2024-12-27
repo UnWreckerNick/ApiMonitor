@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from src.core.config import settings, get_settings
+from src.core.config import settings
 import uvicorn
 
 app = FastAPI(
